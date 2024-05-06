@@ -1,0 +1,80 @@
+@font-face {
+    font-family: sadra;
+    src: url(/fonts/IRANSansWeb.woff2);
+}
+
+* {
+    font-family: sadra;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    border: 1px inset rgb(185, 185, 186);
+    border-radius: 10px;
+    background-color: rgb(227, 228, 228);
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.banner:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 10.5px;
+    border: 2px solid rgb(203, 203, 203);
+    font-size: 60px;
+}
+
+.menu p {
+    display: inline;
+    margin: 4px;
+    padding: 5px;
+    background-color: rgba(213, 213, 213, 0.999);
+    border: 1px inset rgba(225, 225, 225, 0.916);
+    border-radius: 10px;
+    font-family: sadra;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.menu p:hover {
+    font-size: 16px;
+    border-radius: 10.5px;
+    border: 2px solid rgba(201, 201, 201, 0.916);
+}
+
+.menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info>div {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.info p {
+    text-align: right;
+    transition: 1s;
+}
+.info p:hover{
+    font-size: 20px;
+}
+.sabt {
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    border: 2px inset rgb(206, 206, 206);
+    font-size: 20px;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+.sabt:hover{
+    font-size: 22px;
+    border: 2px solid rgb(188, 188, 188);
+}
+.z{
+    color: rgb(255, 83, 83);
+}
+.z:hover{
+    color: red;
+}
